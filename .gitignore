@@ -1,3 +1,4 @@
 
 openwrt-ci -2.yml
 openwrt-ci -3.yml
+openwrt-ci copy.yml
