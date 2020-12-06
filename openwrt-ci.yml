@@ -126,7 +126,7 @@ jobs:
           # cat >> .config <<EOF
           CONFIG_PACKAGE_luci-theme-bootstrap=y
           # EOF
-
+          
           # 常用LuCI插件:
           # cat >> .config <<EOF
           CONFIG_PACKAGE_luci-app-accesscontrol=y
@@ -197,7 +197,7 @@ jobs:
 
           # 
           # ========================固件定制结束========================
-          #           
+          #
 
           sed -i 's/^[ \t]*//g' ./.config
           make defconfig
